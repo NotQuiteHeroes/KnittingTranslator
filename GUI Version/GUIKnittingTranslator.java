@@ -62,7 +62,7 @@ private void setupGUI()
 {
         //main frame set up
         JFrame mainFrame = new JFrame("Knitting Translator");
-        mainFrame.setSize(385, 550);
+        mainFrame.setSize(385, 580);
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //main panel set up
@@ -80,8 +80,12 @@ private void setupGUI()
         //text field to enter text to be translated
         JLabel textLabel = new JLabel("Enter text to translate: ");
         JTextArea textField = new JTextArea(10, 30);
+        textField.setLineWrap(true);
+        textField.setWrapStyleWord(true);
+        JScrollPane textFieldPane = new JScrollPane(textField);
+        textFieldPane.setPreferredSize(new Dimension(335, 180));
         controlPanel.add(textLabel);
-        controlPanel.add(textField);
+        controlPanel.add(textFieldPane);
 
         //note about usage
         JLabel noteLabel = new JLabel("Note: If a term is not found in the dictionary, it will print out as is.");
@@ -104,8 +108,13 @@ private void setupGUI()
         //text area to display translated text
         JLabel translationLabel = new JLabel("Translation: ");
         JTextArea translationField = new JTextArea(10, 30);
+        translationField.setLineWrap(true);
+        translationField.setWrapStyleWord(true);
+        translationField.setEditable(false);
+        JScrollPane translationFieldPane = new JScrollPane(translationField);
+        translationFieldPane.setPreferredSize(new Dimension(335, 180));
         controlPanel.add(translationLabel);
-        controlPanel.add(translationField);
+        controlPanel.add(translationFieldPane);
 
         //buttons along bottom
         JButton saveButton = new JButton("Save");
