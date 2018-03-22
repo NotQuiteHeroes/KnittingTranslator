@@ -38,5 +38,5 @@ The shortened version can take the German term(s) to translate from the command 
 ***
 #### To Do:
 + Update dictionaries and add languages.
-+ GUI Version doesn't wrap text in textboxes.
-+ Unicode characters not being recognized.
++ <strike>GUI Version doesn't wrap text in textboxes.<\strike>
++ <strike>Unicode characters not being recognized.<\strike>
