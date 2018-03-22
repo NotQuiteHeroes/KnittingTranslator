@@ -23,7 +23,10 @@ import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 
 import java.lang.StringBuilder;
 
@@ -193,9 +196,8 @@ static void populateDictionary(String dictionary)
                 //empty the hashtable
                 terms.clear();
                 try{
-                        //open dictionary file
-                        FileReader fr = new FileReader(dictionary);
-                        BufferedReader br = new BufferedReader(fr);
+                        File dict = new File(dictionary);
+                        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(dict), "UTF-8"));
                         String line = br.readLine();
                         //read in line by line from terms file
                         while(line != null)
@@ -208,6 +210,10 @@ static void populateDictionary(String dictionary)
                                 line = br.readLine();
                         }
                         br.close();
+                }
+                catch (UnsupportedEncodingException e)
+                {
+                        System.out.println(e.getMessage());
                 }
                 catch (IOException e)
                 {
