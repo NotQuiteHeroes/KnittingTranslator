@@ -1,4 +1,4 @@
-a to
+﻿a to
 cada each
 cado each
 extremo end
@@ -42,7 +42,7 @@ labor work
 vuelta turn
 debajo under
 delantero front
-derecho right
+derecho knit[right]
 la the
 el the
 las the
@@ -121,7 +121,11 @@ ojales buttonholes
 disminución decrease
 disminuciónes decreases
 menguados decreases
-aumentar increase
 patron pattern
 fila row
 filas rows
+muestra swatch
+rematar bind[off]
+torsada cable
+torsadas cables
+lazada yo
