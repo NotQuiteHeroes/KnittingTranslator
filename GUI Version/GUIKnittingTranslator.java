@@ -95,7 +95,9 @@ private void setupGUI()
         updateButton.addActionListener((ActionEvent e)->
                 {
                         String input = JOptionPane.showInputDialog(null, "Enter term to add followed by English translation, separated by a space:", "Update Dictionary");
-                        updateDictionary(input);
+                        String language = languages.getSelectedItem().toString();
+                        String dictPath = getDictionary(language);
+                        updateDictionary(input, dictPath);
 
                 });
 
@@ -255,10 +257,11 @@ static String[] tokenize(String input)
 }
 
 /**
- * updateDictionary allows user to add their own translation pair to
- * textfile dictionary
+ * [updateDictionary Add a new term to the dictionary]
+ * @param input      [Translation to add to dictionary in format Non-EnglishTerm EnglishTerm]
+ * @param dictionary [path to dictionary to update]
  */
-static void updateDictionary(String input)
+static void updateDictionary(String input, String dictionary)
 {
         BufferedWriter bw = null;
         String[] splitInput = input.split("\\s");
@@ -266,8 +269,8 @@ static void updateDictionary(String input)
         String translated = splitInput[1];
 
         try{
-                //connect to terms.txt file
-                bw = new BufferedWriter(new FileWriter("terms.txt", true));
+                //connect to dictionary file
+                bw = new BufferedWriter(new FileWriter(dictionary, true));
                 //add new translation pair in format:
                 //Non-EnglishTerm EnglishTerm
                 bw.write(toTranslate + " " + translated);
