@@ -5,16 +5,6 @@
  * Requires textfiles containing dictionary for each language
  * These are saved in the resources folder
  *
- * Update button allows the user to add a new term to the dictionary
- * Save button saves the translation to a text file in the Saves folder
- *
- * No requirements
- *
- * Compilation:
- * javac GUIKnittingTranslator.java
- *
- * Execution:
- * java GUIKnittingTranslator
  */
 import java.util.Hashtable;
 import java.util.Arrays;
@@ -33,43 +23,28 @@ import javax.swing.*;
 
 class GUIKnittingTranslator
 {
-//currently loaded dictionary
 private static String loadedDictionary;
-//actual dictionary of terms
 private static Hashtable terms = new Hashtable();
 
-/**
- * [GUIKnittingTranslator Constructor - calls GUI setup]
- */
 public GUIKnittingTranslator()
 {
         setupGUI();
 }
 
-/**
- * [main Simply creates GUIKnittingTranslator object]
- * @param args [command line arguments - not used with GUI version currently]
- */
 public static void main(String[] args)
 {
         GUIKnittingTranslator kt = new GUIKnittingTranslator();
 }
 
-/**
- * [setupGUI Handles all GUI setup, including button functionality]
- */
 private void setupGUI()
 {
-        //main frame set up
         JFrame mainFrame = new JFrame("Knitting Translator");
         mainFrame.setSize(385, 550);
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        //main panel set up
         JPanel controlPanel = new JPanel();
         controlPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
 
-        //language selection drop down box
         JLabel languageLabel = new JLabel("Select language: ");
         String[] languageList = {"German", "Spanish", "French", "Italian", "Swedish"};
         JComboBox<String> languages = new JComboBox<String>(languageList);
@@ -77,19 +52,16 @@ private void setupGUI()
         controlPanel.add(languageLabel);
         controlPanel.add(languages);
 
-        //text field to enter text to be translated
         JLabel textLabel = new JLabel("Enter text to translate: ");
         JTextArea textField = new JTextArea(10, 30);
         controlPanel.add(textLabel);
         controlPanel.add(textField);
 
-        //note about usage
         JLabel noteLabel = new JLabel("Note: If a term is not found in the dictionary, it will print out as is.");
         JLabel noteLabel1 = new JLabel("To add a term to the dictionary, click Update.");
         controlPanel.add(noteLabel);
         controlPanel.add(noteLabel1);
 
-        //update button - opens small joptionpane for user to enter term to save to dictionary
         JButton updateButton = new JButton("Update");
         controlPanel.add(updateButton);
         updateButton.addActionListener((ActionEvent e)->
@@ -99,30 +71,25 @@ private void setupGUI()
 
                 });
 
-        //text area to display translated text
         JLabel translationLabel = new JLabel("Translation: ");
         JTextArea translationField = new JTextArea(10, 30);
         controlPanel.add(translationLabel);
         controlPanel.add(translationField);
 
-        //buttons along bottom
         JButton saveButton = new JButton("Save");
         JButton clearButton = new JButton("Clear");
         JButton translateButton = new JButton("Translate");
-        //save button - save translation to text file in Saves folder
         controlPanel.add(saveButton);
         saveButton.addActionListener((ActionEvent e)->{
                         String input = translationField.getText();
                         saveTranslation(input);
                 });
-        //clear button - clear text from all textfields
         controlPanel.add(clearButton);
         clearButton.addActionListener((ActionEvent e)->
                 {
                         textField.setText("");
                         translationField.setText("");
                 });
-        //translate button - determine current dictionary, load it, and translate text provided by user
         controlPanel.add(translateButton);
         translateButton.addActionListener((ActionEvent e)->
                 {
@@ -134,18 +101,12 @@ private void setupGUI()
                         String output = translate(input);
                         translationField.setText(output);
                 });
-        //add everything to mainFrame and make visible
         mainFrame.add(controlPanel);
         mainFrame.setResizable(false);
         mainFrame.setVisible(true);
 
 }
 
-/**
- * [getDictionary Fetch desired language's dictionary from resources folder]
- * @param  language [desired language for translation - picked by user from drop down menu]
- * @return          [String containing path to where a language's dictionary is saved]
- */
 private String getDictionary(String language)
 {
         String path = "";
@@ -168,30 +129,26 @@ private String getDictionary(String language)
 
         return path;
 }
-
 /**
- * [populateDictionary Takes a string containing path to dictionary textfile and reads in the terms. It splits them into key-value pairs
- * and stores them to the hastable terms.]
- * @param dictionary [String containing path to the dictionary text file]
+ * populateDictionary reads in translation pairs from text file, splits
+ * them into key value pairs
+ * @return [Hashtable containing non-English terms as keys, and English pairs]
  */
 static void populateDictionary(String dictionary)
 {
-        //if the terms hastable is empty, or if the user has changed languages
         if(terms.isEmpty() || !dictionary.equals(loadedDictionary))
         {
-                //empty the hashtable
                 terms.clear();
                 try{
-                        //open dictionary file
                         FileReader fr = new FileReader(dictionary);
                         BufferedReader br = new BufferedReader(fr);
                         String line = br.readLine();
                         //read in line by line from terms file
                         while(line != null)
                         {
-                                //split Non-English term from English term
+                                //split German term from English term
                                 String[] splitTerms = line.split(" ");
-                                //create map entry with Non-English term as key
+                                //create map entry with German term as key
                                 //and English term as value
                                 terms.put(splitTerms[0], splitTerms[1]);
                                 line = br.readLine();
@@ -206,9 +163,8 @@ static void populateDictionary(String dictionary)
 }
 
 /**
- * [translate Takes user input text to translate, performs translate, and returns translation as single String]
- * @param  input [Full String of text entered by user for translation]
- * @return       [String of text entered by user translated]
+ * Translates user input
+ * @param Hashtable terms [German terms are keys, English terms are values]
  */
 static String translate(String input)
 {
@@ -256,7 +212,7 @@ static String[] tokenize(String input)
 
 /**
  * updateDictionary allows user to add their own translation pair to
- * textfile dictionary
+ * textfile terms.txt
  */
 static void updateDictionary(String input)
 {
@@ -269,7 +225,7 @@ static void updateDictionary(String input)
                 //connect to terms.txt file
                 bw = new BufferedWriter(new FileWriter("terms.txt", true));
                 //add new translation pair in format:
-                //Non-EnglishTerm EnglishTerm
+                //GermanTerm EnglishTerm
                 bw.write(toTranslate + " " + translated);
                 //append newline after adding text
                 bw.newLine();
