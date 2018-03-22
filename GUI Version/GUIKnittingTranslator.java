@@ -36,7 +36,7 @@ class GUIKnittingTranslator
 //currently loaded dictionary
 private static String loadedDictionary;
 //actual dictionary of terms
-private static Hashtable terms = new Hashtable();
+private static Hashtable<String, String> terms = new Hashtable<String, String>();
 
 /**
  * [GUIKnittingTranslator Constructor - calls GUI setup]
