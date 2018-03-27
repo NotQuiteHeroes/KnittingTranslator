@@ -1,6 +1,6 @@
 # KnittingTranslator
 
-Current version only works with German terms.
+Current version only works with German, French, and Spanish.
 
 ## GUI Version
 ![alt text](https://github.com/NotQuiteHeroes/Resources/blob/master/ScreenShots/GUIKnittingTranslator.JPG "GUI Version")
@@ -10,7 +10,7 @@ javac GUIKnittingTranslator.java
 java GUIKnittingTranslator
 
 
-The GUI Version of the Knitting Translator has a user interface, with two text boxes, the one on the top being for user input of German term(s) to translate, and the bottom for displaying the translated English term(s).
+The GUI Version of the Knitting Translator has a user interface, with two text boxes, the one on the top being for user input of Non-English term(s) to translate, and the bottom for displaying the translated English term(s).
 The dropdown at the top will allow the user to pick a different language to input.
 The Update button is to add a term to the dictionary. The Save button will save the translated text to a .txt file in the Saves folder.
 Clear will clear the text from both textboxes.
@@ -25,7 +25,7 @@ javac knittingTranslator.java
 java knittingTranslator
 
 
-The full command line version of the Knitting Translator offers a three item menu. 1. Offers the option to translate German term(s) into English. 2. Offers the ability to add a term to the dictionary. 3. Offers the option to exit the program.
+The full command line version of the Knitting Translator offers a three item menu. 1. Offers the option to translate Non-English term(s) into English. 2. Offers the ability to add a term to the dictionary. 3. Offers the option to exit the program.
 Upon translating a text through option 1, the program will ask if the user wants to save the translation. If they enter "yes", the translation will be saved to a .txt file. 
 ### Command Line Quick Access Version:
 ![alt text](https://github.com/NotQuiteHeroes/Resources/blob/master/ScreenShots/knittingTranslator2.JPG "GUI Version")
