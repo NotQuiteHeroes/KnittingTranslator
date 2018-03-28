@@ -1,247 +1,247 @@
-﻿travers through[across]
-aiguille needle
-tricoter knitting
-circulaire circular
-droite right
-gauche left
-alternativement alternately
-arrêter bind[off]
-assembler join
-augmentation increase
-augmenter [to]increase
-avant before
-ayant having
-bordure edge
-boucle loop
-bouton button
-casser break
-chaque each[every]
-comme as
-commencant begin
-commencer begin
-continuer continue
-côte rib
-côté side
-coudre sew
-couture seam
-crosier [to]cross
-de from
-à to
-dernier last
-dern last
-derrière behind[tbl]
-der behind
-par [through]back
-dessous under
-devant front
-dev front
-diminuer [to]decrease
-diminution decrease
-dos back
-echantillon tension
-endroit knit[front]
-ensembles together
-mailles stitches
-envers purl[back]
-explications instructions
-faire make
-jeté yo
-fantaisie pattern
-fermer sew[seams]
-fermeture co
-fil yarn
-fois time
-former shape
-glisser [to]slip
-hauteur long[length]
-ht length
-totale complete
-jersey stockinette
-l'endroit knit[stitch]
-l'envers purl[stitch]
-double two
-lâcher [to]drop
-un a[one]
-lais leave
-laisser leave[put]
-coulée slip
-glissée slip
-impair odd
-rabattue pso
-maille stitch
-même same
-montage co
-monter co
-nombre number
-partager divide
-placer [to]place
-point pattern
-riz moss
-mousse garter
-puis then
-quelque each[every]
-rabattre bo
-rang row
-fg row
-rg row
-rgs rows
-pair even
-précédent previous
-suivant following
-répartir divide
-répéter repeat
-sans without
-séparément separately
-simultané simultaneously
-sous under
-suivante next
-suivre follow
-suiv follow
-surjet skpsso
-temps times
-terminaison bo
-terminer finish
-toujours always
-tjrs always
-tourner [to]turn
-tous all
-ts all
-travail work
-tricot knitting
-tricoter [to]knit
-numéro number
-selon according[to]
-tout all
-ensemble altogether
-et and
-emmenchure armhole
-indiqué established[directed]
-en at
-ou or
-entre between
-le the
-bloquer block
-corps body
-deux both
-torsade cable
-veste cardigan
-changer change
-circonférence circumference
-col cowl
-croiser cross
-croisement cross
-vers on
-poignet cuff
-diminuant decreasing
-diviser divide
-bord edge
-lisière edge
-fin end
-egal even
-régulièrement evenly
-réparti spaced
-excepter except
-première first
-moulant fitted
-plier fold
-pour for
-vêtement garment
-talon heel
-ourlet hem
-inclure include
-incluant including
-garder keep
-gardant keeping
-dentelle lace
-dernière last
-ainsi like[this]
-brin loop
-marqueur marker
-fournitures materials
-mesurer measure
-mesures measurements
-measure measurement
-moufle mitten
-nécessite need
-sur on[over]
-seulement only
-ouvrir open
-ouverture opening
-passer pass
-dessus over
-prendre pick[up]
-ramasser pick[up]
-relever pick[up]
-tirer pull
-restant remaining
-restante remaining
-restantes remaining
-requis required
-revenir return
-côtelé ribbed
-châle shawl
-raccourcis short
-epaule shoulder
-montrer show
-taille size
-manches sleeves
-auxiliaire [stitch]holder
-arrête [stitch]holder
-ne not
-bout tip
-haut top
-transférer transfer
-jusqu until
-avec with
-jeté yo
-matériel material
-abréviations abbreviations
-rangs rows
-glissez slip
-une a[one]
-la the
-piquez stick
-dans in
-les the
-glissées slip
-du of
-patron pattern
-explication explanation
-générale general
-des [of]the
-tricotez knit
-ce what
-reste remain
-montez cast[on]
-placez place
-torse twisted
-qui who
-ont have
-impairs odd
-si if
-vous you
-avez have
-peur fears
-manquer lack
-laine yarn
-voulez want
-pas not
-autre another
-pelote ball
-devrez will
-prochaine next
-après after
-avoir have
-complété completed
-rabattez bind[off]
-souplement loosely
-ces these
-répétez repeat
-aiguilles needle
-couper cut
-passez pass
-finitions finishing
-rentrez weave[in]
-fils threads
-lavez wash
-bloquez block
+﻿travers-through[across]
+aiguille-needle
+tricoter-knitting
+circulaire-circular
+droite-right
+gauche-left
+alternativement-alternately
+arrêter-bind[off]
+assembler-join
+augmentation-increase
+augmenter-[to]increase
+avant-before
+ayant-having
+bordure-edge
+boucle-loop
+bouton-button
+casser-break
+chaque-each[every]
+comme-as
+commencant-begin
+commencer-begin
+continuer-continue
+côte-rib
+côté-side
+coudre-sew
+couture-seam
+crosier-[to]cross
+de-from
+à-to
+dernier-last
+dern-last
+derrière-behind[tbl]
+der-behind
+par-[through]back
+dessous-under
+devant-front
+dev-front
+diminuer-[to]decrease
+diminution-decrease
+dos-back
+echantillon-tension
+endroit-knit[front]
+ensembles-together
+mailles-stitches
+envers-purl[back]
+explications-instructions
+faire-make
+jeté-yo
+fantaisie-pattern
+fermer-sew[seams]
+fermeture-co
+fil-yarn
+fois-time
+former-shape
+glisser-[to]slip
+hauteur-long[length]
+ht-length
+totale-complete
+jersey-stockinette
+l'endroit-knit[stitch]
+l'envers-purl[stitch]
+double-two
+lâcher-[to]drop
+un-a[one]
+lais-leave
+laisser-leave[put]
+coulée-slip
+glissée-slip
+impair-odd
+rabattue-pso
+maille-stitch
+même-same
+montage-co
+monter-co
+nombre-number
+partager-divide
+placer-[to]place
+point-pattern
+riz-moss
+mousse-garter
+puis-then
+quelque-each[every]
+rabattre-bo
+rang-row
+fg-row
+rg-row
+rgs-rows
+pair-even
+précédent-previous
+suivant-following
+répartir-divide
+répéter-repeat
+sans-without
+séparément-separately
+simultané-simultaneously
+sous-under
+suivante-next
+suivre-follow
+suiv-follow
+surjet-skpsso
+temps-times
+terminaison-bo
+terminer-finish
+toujours-always
+tjrs-always
+tourner-[to]turn
+tous-all
+ts-all
+travail-work
+tricot-knitting
+tricoter-[to]knit
+numéro-number
+selon-according[to]
+tout-all
+ensemble-altogether
+et-and
+emmenchure-armhole
+indiqué-established[directed]
+en-at
+ou-or
+entre-between
+le-the
+bloquer-block
+corps-body
+deux-both
+torsade-cable
+veste-cardigan
+changer-change
+circonférence-circumference
+col-cowl
+croiser-cross
+croisement-cross
+vers-on
+poignet-cuff
+diminuant-decreasing
+diviser-divide
+bord-edge
+lisière-edge
+fin-end
+egal-even
+régulièrement-evenly
+réparti-spaced
+excepter-except
+première-first
+moulant-fitted
+plier-fold
+pour-for
+vêtement-garment
+talon-heel
+ourlet-hem
+inclure-include
+incluant-including
+garder-keep
+gardant-keeping
+dentelle-lace
+dernière-last
+ainsi-like[this]
+brin-loop
+marqueur-marker
+fournitures-materials
+mesurer-measure
+mesures-measurements
+measure-measurement
+moufle-mitten
+nécessite-need
+sur-on[over]
+seulement-only
+ouvrir-open
+ouverture-opening
+passer-pass
+dessus-over
+prendre-pick[up]
+ramasser-pick[up]
+relever-pick[up]
+tirer-pull
+restant-remaining
+restante-remaining
+restantes-remaining
+requis-required
+revenir-return
+côtelé-ribbed
+châle-shawl
+raccourcis-short
+epaule-shoulder
+montrer-show
+taille-size
+manches-sleeves
+auxiliaire-[stitch]holder
+arrête-[stitch]holder
+ne-not
+bout-tip
+haut-top
+transférer-transfer
+jusqu-until
+avec-with
+jeté-yo
+matériel-material
+abréviations-abbreviations
+rangs-rows
+glissez-slip
+une-a[one]
+la-the
+piquez-stick
+dans-in
+les-the
+glissées-slip
+du-of
+patron-pattern
+explication-explanation
+générale-general
+des-[of]the
+tricotez-knit
+ce-what
+reste-remain
+montez-cast[on]
+placez-place
+torse-twisted
+qui-who
+ont-have
+impairs-odd
+si-if
+vous-you
+avez-have
+peur-fears
+manquer-lack
+laine-yarn
+voulez-want
+pas-not
+autre-another
+pelote-ball
+devrez-will
+prochaine-next
+après-after
+avoir-have
+complété-completed
+rabattez-bind[off]
+souplement-loosely
+ces-these
+répétez-repeat
+aiguilles-needle
+couper-cut
+passez-pass
+finitions-finishing
+rentrez-weave[in]
+fils-threads
+lavez-wash
+bloquez-block
