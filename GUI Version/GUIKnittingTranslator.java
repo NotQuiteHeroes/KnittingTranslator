@@ -203,7 +203,7 @@ static void populateDictionary(String dictionary)
                         while(line != null)
                         {
                                 //split Non-English term from English term
-                                String[] splitTerms = line.split(" ");
+                                String[] splitTerms = line.split("-");
                                 //create map entry with Non-English term as key
                                 //and English term as value
                                 terms.put(splitTerms[0], splitTerms[1]);
