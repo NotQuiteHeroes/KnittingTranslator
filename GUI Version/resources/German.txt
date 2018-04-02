@@ -82,7 +82,7 @@ kragen-collar
 gleiche-same
 kreisumfang-circumference
 linke-purl
-links-left
+links-purl
 maschenprobe-tension
 muster-pattern
 naht-seam
@@ -503,3 +503,24 @@ willst-want
 verändern-change
 solltest-should
 einplanen-plan on
+sockenwolle-sock yarn
+beispielsocke-example sock
+wolle-yarn
+rundstricknadeln-double pointed needles
+kommen-achieve
+stärke-strength
+notwendig-necessary
+strukturmuster-pattern
+leicht-slightly
+veränderte-modified
+linksstricken-purlwise
+bündchen-cuffs
+gleichmäßig-evenly
+verteilen-to distribute
+schließen-complete
+bündchenmuster-cuff pattern
+bein-leg
+wiederholungen-repeat
+gewünschte-desired
+enden-end
+fersenwand-heel flap

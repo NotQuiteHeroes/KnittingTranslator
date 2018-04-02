@@ -17,19 +17,19 @@ alternativamente-alternately
 alto-length
 anillo-loop
 antes-before
-armado-making[up]
+armado-making up
 arrollado-yo
-aumentar-[to]increase
+aumentar-to increase
 aumentos-increases
 aún-still
 bolsillo-pocket
-borde-edge[selvedge]
+borde-edge/selvedge
 botón-button
 bucle-loop
-cambiar-[to]change
+cambiar-to change
 centro-center
 central-center
-cerrar-cast[off]
+cerrar-cast off
 en-in
 redondo-ring
 con-with
@@ -47,7 +47,7 @@ la-the
 el-the
 las-the
 los-the
-del-of[the]
+del-of the
 trabajo-work
 deslizar-slip
 o-or
@@ -60,7 +60,7 @@ hebra-yo
 echar-yo
 elástico-rib
 empezar-begin
-escote-neck[neckline]
+escote-neck/neckline
 espalda-back
 fruncir-gather
 grueso-thick
@@ -68,22 +68,22 @@ hombro-shoulder
 hombros-shoulders
 igual-equal
 impar-odd
-juntos-together[stitches]
+juntos-stitches together
 lado-side[edge]
 largo-length
-levantar-pick[up]
+levantar-pick up
 manga-sleeve
 marcha-pattern
 medidas-measurements
 menguar-decrease
 mitad-half
-montaje-cast[on]
-montar-cast[on]
+montaje-cast on
+montar-cast on
 ochos-cables
 ojal-buttonhole
 orillo-selvedge
 par-even
-parar-bind[off]
+parar-bind off
 pasada-row
 precedente-previous
 pasar-slip
@@ -95,22 +95,22 @@ jersey-stockinette
 deslizado-slip
 levantado-slip
 musgo-garter
-rematado-pass[over]
+rematado-pass over
 revés-purl
 puntos-stitches
-remallar-pick[up]
+remallar-pick up
 repetir-repeat
 restante-remaining
 saltar-skip
 sequir-continue
 siempre-always
-siguiente-following[next]
+siguiente-following/next
 simultáneamente-simultaneously
 sin-without
 sisa-armhole
 talla-size
 tejer-knit
-terminación-bind[off]
+terminación-bind off
 terminar-finish
 todo-every
 trabajar-work
@@ -125,18 +125,18 @@ patron-pattern
 fila-row
 filas-rows
 muestra-swatch
-rematar-bind[off]
+rematar-bind off
 torsada-cable
 torsadas-cables
 lazada-yo
 repiten-repeated
 aproximadamente-approximately
-comenzar-[to]begin
+comenzar-to begin
 comenzado-begin
 comenziendo-beginning
 entre-between
-cierran-bind[off]
-montan-cast[on]
+cierran-bind off
+montan-cast on
 continua-continue
 disminuen-decrease
 disminuyendo-decreasing
@@ -156,7 +156,7 @@ lana-yarn
 yardas-yards
 metros-meters
 fina-fine
-está-[it]is
+está-it is
 hecha-done
 una-a
 número-number
@@ -184,21 +184,21 @@ hasta-until
 der-knit
 revs-purl
 últimos-last
-tenemos-[we]have
+tenemos-we have
 más-more
-tendremos-[we]will[have]
+tendremos-we will have
 pts-stitches
 otra-another
 vez-time
 olas-waves
-haciendolos-making[them]
+haciendolos-making them
 marcador-marker
 centrales-center
 primer-first
 segundo-second
 tercer-third
 cuarto-fourth
-haciéndolos-making[them]
+haciéndolos-making them
 último-last
 estas-these
 se-are
@@ -208,11 +208,11 @@ al-at[the]
 principio-beginning
 sexta-sixth
 repetición-repetition
-tendrás-you[will]have
+tendrás-you will have
 suficientes-sufficient
 para-for
 añadir-adding
-calado-lace[pattern]
+calado-lace pattern
 décima-tenth
 pueden-can
 repeticiones-repetitions

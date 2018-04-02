@@ -5,17 +5,17 @@ circulaire-circular
 droite-right
 gauche-left
 alternativement-alternately
-arrêter-bind[off]
+arrêter-bind off
 assembler-join
 augmentation-increase
-augmenter-[to]increase
+augmenter-to increase
 avant-before
 ayant-having
 bordure-edge
 boucle-loop
 bouton-button
 casser-break
-chaque-each[every]
+chaque-each/every
 comme-as
 commencant-begin
 commencer-begin
@@ -24,46 +24,46 @@ côte-rib
 côté-side
 coudre-sew
 couture-seam
-crosier-[to]cross
+crosier-to cross
 de-from
 à-to
 dernier-last
 dern-last
-derrière-behind[tbl]
+derrière-behind/through the back loop
 der-behind
-par-[through]back
+par-by
 dessous-under
 devant-front
 dev-front
-diminuer-[to]decrease
+diminuer-to decrease
 diminution-decrease
 dos-back
 echantillon-tension
-endroit-knit[front]
+endroit-knit
 ensembles-together
 mailles-stitches
-envers-purl[back]
+envers-purl
 explications-instructions
 faire-make
 jeté-yo
 fantaisie-pattern
-fermer-sew[seams]
+fermer-sew seams
 fermeture-co
 fil-yarn
 fois-time
 former-shape
-glisser-[to]slip
-hauteur-long[length]
+glisser-to slip
+hauteur-long
 ht-length
 totale-complete
 jersey-stockinette
-l'endroit-knit[stitch]
-l'envers-purl[stitch]
+l'endroit-knit
+l'envers-purl
 double-two
-lâcher-[to]drop
-un-a[one]
+lâcher-to drop
+un-a/one
 lais-leave
-laisser-leave[put]
+laisser-leave/put
 coulée-slip
 glissée-slip
 impair-odd
@@ -74,12 +74,12 @@ montage-co
 monter-co
 nombre-number
 partager-divide
-placer-[to]place
+placer-to place
 point-pattern
 riz-moss
 mousse-garter
 puis-then
-quelque-each[every]
+quelque-each/every
 rabattre-bo
 rang-row
 fg-row
@@ -103,20 +103,20 @@ terminaison-bo
 terminer-finish
 toujours-always
 tjrs-always
-tourner-[to]turn
+tourner-to turn
 tous-all
 ts-all
 travail-work
 tricot-knitting
-tricoter-[to]knit
+tricoter-to knit
 numéro-number
-selon-according[to]
+selon-according to
 tout-all
 ensemble-altogether
 et-and
 emmenchure-armhole
-indiqué-established[directed]
-en-at
+indiqué-established/directed
+en-in
 ou-or
 entre-between
 le-the
@@ -154,7 +154,7 @@ garder-keep
 gardant-keeping
 dentelle-lace
 dernière-last
-ainsi-like[this]
+ainsi-like this
 brin-loop
 marqueur-marker
 fournitures-materials
@@ -163,15 +163,15 @@ mesures-measurements
 measure-measurement
 moufle-mitten
 nécessite-need
-sur-on[over]
+sur-on/over
 seulement-only
 ouvrir-open
 ouverture-opening
 passer-pass
 dessus-over
-prendre-pick[up]
-ramasser-pick[up]
-relever-pick[up]
+prendre-pick up
+ramasser-pick up
+relever-pick up
 tirer-pull
 restant-remaining
 restante-remaining
@@ -185,8 +185,8 @@ epaule-shoulder
 montrer-show
 taille-size
 manches-sleeves
-auxiliaire-[stitch]holder
-arrête-[stitch]holder
+auxiliaire-stitch holder
+arrête-stitch holder
 ne-not
 bout-tip
 haut-top
@@ -198,7 +198,7 @@ matériel-material
 abréviations-abbreviations
 rangs-rows
 glissez-slip
-une-a[one]
+une-a/one
 la-the
 piquez-stick
 dans-in
@@ -212,7 +212,7 @@ des-[of]the
 tricotez-knit
 ce-what
 reste-remain
-montez-cast[on]
+montez-cast on
 placez-place
 torse-twisted
 qui-who
@@ -226,22 +226,119 @@ manquer-lack
 laine-yarn
 voulez-want
 pas-not
-autre-another
+autre-other
 pelote-ball
 devrez-will
 prochaine-next
 après-after
 avoir-have
 complété-completed
-rabattez-bind[off]
+rabattez-bind off
 souplement-loosely
 ces-these
 répétez-repeat
-aiguilles-needle
+aiguilles-needles
 couper-cut
 passez-pass
 finitions-finishing
-rentrez-weave[in]
+rentrez-weave in
 fils-threads
 lavez-wash
 bloquez-block
+approximativement-approximately
+depuis-from
+centrale-central
+large-wide
+l’arête-ridge
+écheveau-skein
+montré-shown
+coloris-color
+anneau-ring
+tapisserie-tapestry
+rentrer-weaving
+au-in
+mesuré-measured
+plat-flat
+léger-light
+blocage-blocking
+jusqu’à-until
+tric-knit
+l'aiguille-the needle
+chaussettes-socks
+nécessaire-necessary
+circulaires-circular
+obtenir-to obtain
+l'échantillon-gauge
+échantillon-gauge
+end-knit
+env-purl
+renforcé-reinforced
+légèrement-slightly
+modifié-modified
+répartissez-spread
+rond-the round
+côtes-ribbing
+cheville-ankle
+commencez-start
+répétant-repeating
+longueur-length
+voulue-desired
+finissant-ending
+travaillez-work
+uniquement-only
+deuxième-second
+se-are
+trouvent-worked
+cou-neck
+pied-foot
+obtenez-gain
+lorsque-when
+aurez-will
+tourné-turn
+tournez-turn
+l'ouvrage-the work
+ouvrage-work
+torses-twisted
+continuez-continue
+que-that
+toutes-all
+aient-have
+été-been
+tricotées-knit
+il-you
+devrait-should
+alors-then
+rester-leave
+relevez-pick up
+laquelle-which
+aig-needle
+supplémentaire-additional
+afin-in order to
+éviter-avoid
+trou-hole
+marq-marker
+moitié-half
+devriez-should
+gousset-gusset
+mise-set up
+bordures-borders
+maintenant-now
+êtes-are
+prêts-ready
+compter-counting
+ait-have
+soient-are
+plante-sole
+atteindre-reach
+diminutions-decreases
+tricotent-knitted
+aux-the
+coupez-cut
+laissant-leaving
+tricoté-knit
+belle-beautiful
+chaussette-sock
+est-is
+déjà-already
+fait-done
+ens-together
